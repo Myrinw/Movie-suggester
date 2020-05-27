@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230, 230, 230);
+    position: relative;
+}
+.randombar{
+    height: 50px;
+    background-color: rgb(238, 85, 58);
+}
+#form{
+    height: 700px;
+    background-color: rebeccapurple;
+
+}
+
+.form-box{
+    width: 60%;
+    margin: 0 auto;
+    height: 400px;
+    border: 2px solid purple;
+    background-color: #fff;
+    padding: 20px;
+}
+#nav{
+    height: 10vh;
+    background-color: rgb(207, 110, 207);
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+#search{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.filter{
+    width: 20%;
+    height: 90%;
+    border:3px solid rgb(207, 110, 207) ;
+}
+.results{
+    height: 600px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.rij{
+    height: 65%;
+    padding:20px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.image{
+    width: 20%;
+}
+.info{
+    width: 75%;
+}
+.beschrijving{
+position: absolute;
+bottom: 0;
+}
+ul li{
+    margin-bottom: 4px;
+}
+ul{
+    margin-left: 30px;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+}
+.movie1{
+    background-image: url(../img/movie6.jpeg), linear-gradient(rgba(29, 28, 28, 0.582), rgba(29, 28, 28, 0.582));
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+.movie2{
+    background-image: url(../img/movie7.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    background-repeat: no-repeat;
+
+}
+.movie3{
+    background-image: url(../img/movie5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    background-repeat: no-repeat;
+
+}
+.movie4{
+    background-image: url(../img/movie8.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    background-repeat: no-repeat;
+}
+.layer{
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    background-color: rgba(29, 28, 28, 0.582);
+    height: 90vh;
+    z-index: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+}
+#zoek{
+    margin-left: auto;
+}
+
