@@ -11,51 +11,18 @@
 </head>
 <body>
   <!-- Image and text -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container">
-      <h1 style="color:#fff;">De Film Aanrader!</h1>
+  <nav  id="top-nav" class="navbar navbar-expand-lg navbar-dark bg-tranparent">
+    <div class="containerr">
+      <img style="display:inline-block; height: 100px;"src="img/cinema.png" alt="">
+      <h1 style="display:inline-block; color:#fff;">De Film Aanrader!</h1>
 
     </div>
   
   </nav>
 
-  <div class="layer">
-    <h1>De aanrader!</h1>
-    <p></p>
-  </div>
-
-
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="movie1"></div>
-      </div>
-      <div class="carousel-item">
-        <div class="movie2"></div>
-      </div>
-      <div class="carousel-item">
-        <div class="movie3"></div>
-      </div>
-      <div class="carousel-item">
-        <div class="movie4"></div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  
-  </div>
-
-
 
   <section>
-    <div class="container">
+    <div class="containerr">
       <div class="results">
 
 
@@ -65,7 +32,7 @@
         
           
           <div class="dropdown">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Genre
             </a>
           
@@ -78,7 +45,7 @@
             </div>
           </div>
           <div class="ml-3 dropdown">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Kijk naar
             </a>
           
@@ -96,15 +63,19 @@
 
         <div class="rij">
           <div class="image">
-          <img src="img/movie1.jpg" class="movie-img"style="height:100%"alt="">
+          <img src="img/movie1.jpg" class="movie-img">
           </div>
           <div class="info">
             <h2 id="title">Jumanji, the next level(2019)</h2>
+            <div class="info__inline">
+
+          
             <ul>
               <li>Publicatie: <div id="release" class="badge badge-primary">12/13/2019</div></li>
-              <li >Genre: <div id="genres" class="badge badge-secondary">Actie</div></li>
-              <li>Aantal reviews: <div id="votes"class="badge badge-primary"></div></li>
-              <li>Reviews gemiddelde: <div id="vote-average"class="badge badge-warning">69%</div> </li>
+              <li  >Genre: <div style="display:inline-block" id="genres"><div class="badge badge-info">Actie</div></div></li>
+              <li>Aantal reviews: <div id="votes"class="badge badge-primary">10020</div></li>
+              <li>Reviews gemiddelde: <div id="vote-average"class="badge badge-warning">7.1</div> </li>
+              <li>Populariteit: <div id="popularity" class="badge badge-success">69%</div> </li>
             </ul>
             <!--
             <button class="badge badge-primary">Publicatie: 12/13/2019</button>
@@ -119,19 +90,17 @@
             <h5>Film beschrijving:</h5>
             <p id="film-beschrijving">As the gang return to Jumanji to rescue one of their own, they discover that nothing is as they expect. The players will have to brave parts unknown and unexplored in order to escape the world’s most dangerous game.</p>
             </div>
+            </div>
+
           </div>
 
         </div>
-        <div class="description">
-        </div>
-        <button type="submit" id="anderefilm" class="btn btn-success btn-block" style="width:400px; margin: 0 auto;">Andere film</button>
+        
     </div>
     </div>
 
   </section>
-  <footer class="mt5 p3 text-center bg-light" style="margin-top: 20px;">
-    Aanrader ©
-</footer>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

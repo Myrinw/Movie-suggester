@@ -25,15 +25,17 @@ document.querySelector('#reviews').addEventListener('click', function(){
 })
 function he(){
 
- return Math.round(Math.random() * 20);
+ return Math.round(Math.random() * 19);
 }
-console.log(he());
+
 
 const movies = new generateMovies;
 document.getElementById('zoek').addEventListener('click', function(){
     const year = document.querySelector('#release').value;
     movies.getMovies(genre, sort, year)
     .then( function(e) {
+        console.log(e);
+        console.log(he());
         UI(e.results[he()]);
         
     })
@@ -42,7 +44,7 @@ document.getElementById('zoek').addEventListener('click', function(){
 document.querySelector('#anderefilm').addEventListener('click', function(){
     movies.getMovies(genre, sort)
     .then( function(e) {
-        console.log(e);
+       
         UI(e.results[he()]);
         
     })
