@@ -1,5 +1,5 @@
 let genre = '';
-let sort = '';
+let sort = 'popularity.desc';
 
 document.querySelector('#actie').addEventListener('click', function(){
  genre = '28';
